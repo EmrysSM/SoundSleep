@@ -6,9 +6,9 @@
     </style>
 
     <!-- Sunset application theme. -->
-    <style name="Dark" parent="android:Theme.Material.Light.DarkActionBar">
-        <item name="android:background">#000</item>
-        <item name="android:textColor">#fff</item>
+    <style name="Dark" parent="android:ThemeOverlay.Material.Dark">
+        <!--<item name="android:background">#000</item>-->
+        <!--<item name="android:textColor">#fff</item>-->
     </style>
 
 </resources>
