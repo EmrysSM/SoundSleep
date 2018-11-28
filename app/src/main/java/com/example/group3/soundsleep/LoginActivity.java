@@ -6,13 +6,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import com.google.firebase.auth.FirebaseAuth;
 
-import org.w3c.dom.Text;
 
 public class LoginActivity extends Activity {
     TextView password;
     TextView username;
     TextView incorrectLogin;
+    private FirebaseAuth firebaseauth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,7 +22,7 @@ public class LoginActivity extends Activity {
         username = (TextView)findViewById(R.id.txtUsername);
         password = (TextView)findViewById(R.id.txtPassword);
         incorrectLogin = (TextView)findViewById(R.id.txtIncorrectLogin);
-
+        firebaseauth = FirebaseAuth.getInstance();
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

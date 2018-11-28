@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "677837813811",
+    "firebase_url": "https://soundsleep-9211a.firebaseio.com",
+    "project_id": "soundsleep-9211a",
+    "storage_bucket": "soundsleep-9211a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677837813811:android:7bbd8fdb42bae3cb",
+        "android_client_info": {
+          "package_name": "com.example.group3.soundsleep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677837813811-k93man8boc8st7dqeig073ojpp7i0qih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.group3.soundsleep",
+            "certificate_hash": "5caf0a3726d2eead716a44bf68cf41958d93caa3"
+          }
+        },
+        {
+          "client_id": "677837813811-jndhc2e5lvobv35fmkumpqr9rhps8he4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr7PnMvLKs-SWD-G8SyUBiNG0uVHrR4f8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677837813811-jndhc2e5lvobv35fmkumpqr9rhps8he4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

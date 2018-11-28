@@ -88,10 +88,13 @@
         android:layout_marginTop="3dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/colorPrimary"
         app:layout_constraintBottom_toTopOf="@+id/txtCurrentSong"
         app:layout_constraintEnd_toStartOf="@+id/btnPlaylist"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/settingsButton">
+        app:layout_constraintTop_toBottomOf="@+id/settingsButton"
+        tools:background="@color/colorPrimary"
+        tools:visibility="visible">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -129,6 +132,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/scrollView4"
         app:layout_constraintTop_toTopOf="parent"
-        tools:src="@tools:sample/avatars" />
+        tools:src="@tools:sample/avatars"
+        tools:visibility="visible" />
 
 </android.support.constraint.ConstraintLayout>
